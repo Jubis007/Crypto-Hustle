@@ -1,0 +1,72 @@
+/* 1. Base Body Styling */
+body {
+  background-color: black;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 2. Main Page Container */
+.whole-page {
+  padding: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+/* 3. The Unordered List (ul) */
+ul {
+  list-style: none; 
+  margin: 25px 50px 75px 30px;
+  padding: 0;
+}
+
+/* 4. The Individual Coin Rows */
+li.main-list {
+  padding: 25px;
+  border-bottom: solid 3px white;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 5. The Coin Images */
+.icons {
+  padding-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+/* 6. The Tab Spacer */
+.tab {
+  display: inline-block;
+  margin-left: 75px;
+}
+
+/* Make the search bar look a bit nicer */
+input {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
+/* Side Navigation Bar Styling */
+.sidenav {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #232323;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
